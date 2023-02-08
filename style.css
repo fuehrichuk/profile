@@ -1,0 +1,53 @@
+body {
+  background-color: #E8F9FD;
+  color: #e5680f;
+  font-family: 'Unbounded';
+}
+
+a:hover {
+  background-color: yellow;
+}
+
+h1, h2 {
+  line-height: normal;
+}
+
+.container{
+  text-align: center;
+}
+
+#image{
+  border-radius: 50%;
+}
+
+.desc-link{
+  font-size: 25px;
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+  width: 500px;
+  margin: 20px auto;
+  border-radius: 3%;
+
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
